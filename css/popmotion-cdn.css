@@ -1,0 +1,19 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	min-height: 400px;
+	border: 2px solid red;
+}
+
+.box {
+	background-color: deeppink;
+	border-radius: 50%;
+	height: 110px;
+	width: 110px;
+}
